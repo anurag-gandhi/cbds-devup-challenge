@@ -1,0 +1,38 @@
+{
+  "name": "aacoc-starter-node",
+  "version": "v1.2.1",
+  "description": "An IBM AACoC Application",
+  "private": true,
+  "scripts": {
+    "start": "node ./www",
+    "postinstall": "node_modules/.bin/bower install; node_modules/.bin/gulp development"
+  },
+  "dependencies": {
+    "alasql": "^0.4.5",
+    "bower": "1.8.0",
+    "csv": "^2.0.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "express-jwt": "^3.3.0",
+    "express-secure-only": "^0.2.1",
+    "express-session": "~1.13.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "2.6.0",
+    "gulp-inject": "4.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-strip-debug": "1.1.0",
+    "gulp-uglify": "2.0.0",
+    "jsonwebtoken": "^5.7.0",
+    "main-bower-files": "2.13.1",
+    "q": "^1.4.1",
+    "request": "^2.67.0"
+  },
+  "repository": {},
+  "engines": {
+    "node": "6.9.1",
+    "npm": "3.10.8"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

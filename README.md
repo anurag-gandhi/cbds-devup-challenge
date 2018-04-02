@@ -24,3 +24,6 @@ To start the application: npm start
 * Provide some comments below about how this application should be better designed.
 
 Provide comments below:
+
+* Dropdowns for charts
+* Pulling data from Mongodb
